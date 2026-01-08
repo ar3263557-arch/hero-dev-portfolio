@@ -22,6 +22,21 @@
     color: white;
     cursor: pointer;
  }
+ .section-heading{
+    max-width: 827px;
+    text-align: center;
+    margin: 0 auto;
+ }
+ .section-heading h2{
+    font-size: 35px;
+    text-align: center;
+ }
+ .section-heading p{
+    font-size: 28px;
+    margin-bottom:30px;
+    line-height: 30px;
+    color: #757575;
+ }
  
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
@@ -85,5 +100,71 @@ nav .menu a{
 max-width:585px;
 vertical-align: middle;
 }
+#about{
+    padding-top: 130px;
+}
+#about-section .about-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: auto;
+    text-align: center;
+   background-color: #FFF8F3;
+   padding: 131px,156px; 
+}
+#about.about-container .about-info{
+    display: flex;
+    justify-content:space-around;
+}
+#skills{
+    padding-top: 130px;
+}
+ #skills .skills-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+#skills .skills-container .skill-box{
+    display: flex;
+}
 
 
+
+footer {
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+footer .footer-container{
+    width: 71%;
+    max-width: 1140%;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+}
+.footer-container .socil{
+     max-width: 562px;
+}
+.footer-container h2{
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.footer-container .socil p{
+    color: #474747;
+    line-height:28px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.footer-container .icons a {
+    margin-right:24px;
+}
+.footer-container form input[ type="text"]{
+    width: 461px;
+    padding:18px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+    
+
+}
